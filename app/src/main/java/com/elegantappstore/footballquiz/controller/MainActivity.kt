@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity() {
 
         imageTaken = findViewById(R.id.imgTaken)
 
-        // See The next Player
+        // See The Next Player
         btnNextFootballer.setOnClickListener {
             if(checkForInternetConnection()) {
                 setProgressBar(true)

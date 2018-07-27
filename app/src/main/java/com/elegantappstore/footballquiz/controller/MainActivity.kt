@@ -115,7 +115,7 @@ class MainActivity : AppCompatActivity() {
 
         override fun onPostExecute(result: List<FootData>?) {
             super.onPostExecute(result)
-            // can access user interface thread
+            // Can access user interface thread
             val numberOfFootballers = result?.size ?: 0
 
             if(numberOfFootballers > 0){
